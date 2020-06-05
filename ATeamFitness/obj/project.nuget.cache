@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EVp4QKIUi54PG87yNQNr4DcpnFPbcdsrUZx2NCkybxqX9cS4gW8AJfPgNU0ysF1BHfgzW+/SukbVeVVghyGVSw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\monye\\source\\repos\\ATeamFitness\\ATeamFitness\\ATeamFitness.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\monye\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
