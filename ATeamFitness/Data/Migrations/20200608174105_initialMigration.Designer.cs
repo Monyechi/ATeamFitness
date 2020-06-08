@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ATeamFitness.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200608164932_initialMigtation")]
-    partial class initialMigtation
+    [Migration("20200608174105_initialMigration")]
+    partial class initialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -20,6 +20,91 @@ namespace ATeamFitness.Data.Migrations
                 .HasAnnotation("ProductVersion", "3.1.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity("ATeamFitness.Models.Customer", b =>
+                {
+                    b.Property<int>("CustomerId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DietPlan")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FitnessGoal")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FitnessPlan")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("IdentityUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("RewardPoint")
+                        .HasColumnType("int");
+
+                    b.Property<string>("State")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("StreetAddress")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ZipCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CustomerId");
+
+                    b.HasIndex("IdentityUserId");
+
+                    b.ToTable("Customers");
+                });
+
+            modelBuilder.Entity("ATeamFitness.Models.PersonalTrainer", b =>
+                {
+                    b.Property<int>("PersonalTrainerId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Bio")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("IdentityUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Rating")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Schedule")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Specialization")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TrainerLocation")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("WorkoutCalendar")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ZipCode")
+                        .HasColumnType("int");
+
+                    b.HasKey("PersonalTrainerId");
+
+                    b.HasIndex("IdentityUserId");
+
+                    b.ToTable("PersonalTrainers");
+                });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
@@ -50,15 +135,15 @@ namespace ATeamFitness.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "d42ca736-15ac-47c2-8e4a-9a12415d013b",
-                            ConcurrencyStamp = "5a902024-6fcc-415f-837f-ed3eb3ff2f79",
+                            Id = "b39f8487-64c8-435a-9e4e-5822791f9c19",
+                            ConcurrencyStamp = "ebf08129-73ba-411a-88dc-57c482c1e5b0",
                             Name = "Customer",
                             NormalizedName = "CUSTOMER"
                         },
                         new
                         {
-                            Id = "e1fad4c8-d06a-4101-a8d8-3613f0f81e35",
-                            ConcurrencyStamp = "2257ca17-1bb1-4fcc-8792-9a74e7b12f13",
+                            Id = "4b1a57cc-ae51-4028-a83b-b5c02a0a1bbc",
+                            ConcurrencyStamp = "2ee5c753-06e5-4a71-834a-e33b7dc0ff6b",
                             Name = "PersonTrainer",
                             NormalizedName = "PERSONAL TRAINER"
                         });
@@ -231,6 +316,20 @@ namespace ATeamFitness.Data.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens");
+                });
+
+            modelBuilder.Entity("ATeamFitness.Models.Customer", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "IdentityUser")
+                        .WithMany()
+                        .HasForeignKey("IdentityUserId");
+                });
+
+            modelBuilder.Entity("ATeamFitness.Models.PersonalTrainer", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "IdentityUser")
+                        .WithMany()
+                        .HasForeignKey("IdentityUserId");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

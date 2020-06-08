@@ -4,6 +4,7 @@ using System.Text;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using ATeamFitness.Models;
 
 namespace ATeamFitness.Data
 {
@@ -32,5 +33,7 @@ namespace ATeamFitness.Data
             }
             );
         }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<PersonalTrainer> PersonalTrainers { get; set; }
     }
 }
