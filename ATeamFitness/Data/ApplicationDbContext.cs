@@ -28,8 +28,8 @@ namespace ATeamFitness.Data
 
             new IdentityRole
             {
-                Name = "PersonTrainer",
-                NormalizedName = "PERSONAL TRAINER"
+                Name = "Trainer",
+                NormalizedName = "TRAINER"
             }
             );
         }

@@ -8,10 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using ATeamFitness.Data;
 using ATeamFitness.Models;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace ATeamFitness.Controllers
 {
-    [Authorize(Roles = "PersonalTrainer")]
+    [Authorize(Roles = "Trainer")]
     public class PersonalTrainersController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -24,8 +25,16 @@ namespace ATeamFitness.Controllers
         // GET: PersonalTrainers
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.PersonalTrainers.Include(p => p.IdentityUser);
-            return View(await applicationDbContext.ToListAsync());
+            var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var personalTrainer = _context.PersonalTrainers.Where(c => c.IdentityUserId == userId).SingleOrDefault();
+
+            if (personalTrainer == null)
+            {
+                return RedirectToAction("Create");
+            }
+
+            return View(personalTrainer);
         }
 
         // GET: PersonalTrainers/Details/5
@@ -63,6 +72,8 @@ namespace ATeamFitness.Controllers
         {
             if (ModelState.IsValid)
             {
+                var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
+                personalTrainer.IdentityUserId = userId;
                 _context.Add(personalTrainer);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

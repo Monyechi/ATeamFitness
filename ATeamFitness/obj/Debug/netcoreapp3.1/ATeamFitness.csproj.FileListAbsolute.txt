@@ -441,11 +441,10 @@ C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamF
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Create.cshtml.g.cs
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Delete.cshtml.g.cs
-C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Details.cshtml.g.cs
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Edit.cshtml.g.cs
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Index.cshtml.g.cs
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\PersonalTrainers\Create.cshtml.g.cs
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\PersonalTrainers\Delete.cshtml.g.cs
-C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\PersonalTrainers\Details.cshtml.g.cs
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\PersonalTrainers\Edit.cshtml.g.cs
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\PersonalTrainers\Index.cshtml.g.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.csprojAssemblyReference.cache

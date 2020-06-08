@@ -7,10 +7,10 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace ATeamFitness.Data.Migrations
+namespace ATeamFitness.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200608174105_initialMigration")]
+    [Migration("20200608210829_initialMigration")]
     partial class initialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -135,17 +135,17 @@ namespace ATeamFitness.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "b39f8487-64c8-435a-9e4e-5822791f9c19",
-                            ConcurrencyStamp = "ebf08129-73ba-411a-88dc-57c482c1e5b0",
+                            Id = "1f9e1c38-63e9-4b27-b350-61d8b7cfc1db",
+                            ConcurrencyStamp = "a414e4d1-f722-4d90-94b8-d24f9f69498e",
                             Name = "Customer",
                             NormalizedName = "CUSTOMER"
                         },
                         new
                         {
-                            Id = "4b1a57cc-ae51-4028-a83b-b5c02a0a1bbc",
-                            ConcurrencyStamp = "2ee5c753-06e5-4a71-834a-e33b7dc0ff6b",
-                            Name = "PersonTrainer",
-                            NormalizedName = "PERSONAL TRAINER"
+                            Id = "57c281c8-5be5-4423-bff1-2ebdd1dd94d9",
+                            ConcurrencyStamp = "9ad9e3ec-64cf-401d-9ba3-9ebb756074bc",
+                            Name = "Trainer",
+                            NormalizedName = "TRAINER"
                         });
                 });
 
