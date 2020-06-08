@@ -3,11 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ATeamFitness.Migrations
 {
-<<<<<<< HEAD:ATeamFitness/Migrations/20200608210829_initialMigration.cs
     public partial class initialMigration : Migration
-=======
-    public partial class Initial : Migration
->>>>>>> 98113323c6023f6c2d6d85d6f817950ec4f14910:ATeamFitness/Migrations/20200608192548_Initial.cs
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -214,20 +210,12 @@ namespace ATeamFitness.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-<<<<<<< HEAD:ATeamFitness/Migrations/20200608210829_initialMigration.cs
-                values: new object[] { "1f9e1c38-63e9-4b27-b350-61d8b7cfc1db", "a414e4d1-f722-4d90-94b8-d24f9f69498e", "Customer", "CUSTOMER" });
-=======
-                values: new object[] { "4f5fb51f-29ae-45ba-b70a-cbce7df39801", "7d80fb32-64b1-4505-bdf9-1ffe2e88262f", "Customer", "CUSTOMER" });
->>>>>>> 98113323c6023f6c2d6d85d6f817950ec4f14910:ATeamFitness/Migrations/20200608192548_Initial.cs
+                values: new object[] { "b68ca455-a8f9-4fd7-a6e8-d58905764f1f", "fd671bbe-d5b4-4201-b6db-fff9221d3203", "Customer", "CUSTOMER" });
 
             migrationBuilder.InsertData(
                 table: "AspNetRoles",
                 columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
-<<<<<<< HEAD:ATeamFitness/Migrations/20200608210829_initialMigration.cs
-                values: new object[] { "57c281c8-5be5-4423-bff1-2ebdd1dd94d9", "9ad9e3ec-64cf-401d-9ba3-9ebb756074bc", "Trainer", "TRAINER" });
-=======
-                values: new object[] { "646f9a58-7941-4988-a541-91542cc3c72f", "4e4fe314-d2de-43a8-8dd1-5bb1a9b4c786", "PersonTrainer", "PERSONAL TRAINER" });
->>>>>>> 98113323c6023f6c2d6d85d6f817950ec4f14910:ATeamFitness/Migrations/20200608192548_Initial.cs
+                values: new object[] { "4eca5b62-089a-43ee-b033-8ea376a2ad58", "38254d44-69c8-435c-a922-25203ac68a69", "Trainer", "TRAINER" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
