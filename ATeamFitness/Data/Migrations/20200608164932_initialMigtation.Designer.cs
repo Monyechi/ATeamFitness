@@ -4,14 +4,16 @@ using ATeamFitness.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ATeamFitness.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200608164932_initialMigtation")]
+    partial class initialMigtation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,15 +50,15 @@ namespace ATeamFitness.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "0126bdf7-dcba-4930-9127-22e4ca76142b",
-                            ConcurrencyStamp = "35161b09-c70e-488a-b7ca-238338bba681",
+                            Id = "d42ca736-15ac-47c2-8e4a-9a12415d013b",
+                            ConcurrencyStamp = "5a902024-6fcc-415f-837f-ed3eb3ff2f79",
                             Name = "Customer",
                             NormalizedName = "CUSTOMER"
                         },
                         new
                         {
-                            Id = "58681d03-a8f5-4ffa-89d8-90e521763d12",
-                            ConcurrencyStamp = "a7b980f2-5b5d-4fd5-848a-39da627c02c7",
+                            Id = "e1fad4c8-d06a-4101-a8d8-3613f0f81e35",
+                            ConcurrencyStamp = "2257ca17-1bb1-4fcc-8792-9a74e7b12f13",
                             Name = "PersonTrainer",
                             NormalizedName = "PERSONAL TRAINER"
                         });

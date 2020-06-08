@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\monye\\source\\repos\\ATeamFitness\\ATeamFitness\\ATeamFitness.csproj": {}
+    "C:\\Users\\SMORI\\Dropbox\\My PC (LAPTOP-M0D3T0R9)\\Desktop\\devCodeCamp\\Week_09\\Group_Capstone\\ATeamFitness\\ATeamFitness\\ATeamFitness.csproj": {}
   },
   "projects": {
-    "C:\\Users\\monye\\source\\repos\\ATeamFitness\\ATeamFitness\\ATeamFitness.csproj": {
+    "C:\\Users\\SMORI\\Dropbox\\My PC (LAPTOP-M0D3T0R9)\\Desktop\\devCodeCamp\\Week_09\\Group_Capstone\\ATeamFitness\\ATeamFitness\\ATeamFitness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\monye\\source\\repos\\ATeamFitness\\ATeamFitness\\ATeamFitness.csproj",
+        "projectUniqueName": "C:\\Users\\SMORI\\Dropbox\\My PC (LAPTOP-M0D3T0R9)\\Desktop\\devCodeCamp\\Week_09\\Group_Capstone\\ATeamFitness\\ATeamFitness\\ATeamFitness.csproj",
         "projectName": "ATeamFitness",
-        "projectPath": "C:\\Users\\monye\\source\\repos\\ATeamFitness\\ATeamFitness\\ATeamFitness.csproj",
-        "packagesPath": "C:\\Users\\monye\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\monye\\source\\repos\\ATeamFitness\\ATeamFitness\\obj\\",
+        "projectPath": "C:\\Users\\SMORI\\Dropbox\\My PC (LAPTOP-M0D3T0R9)\\Desktop\\devCodeCamp\\Week_09\\Group_Capstone\\ATeamFitness\\ATeamFitness\\ATeamFitness.csproj",
+        "packagesPath": "C:\\Users\\SMORI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SMORI\\Dropbox\\My PC (LAPTOP-M0D3T0R9)\\Desktop\\devCodeCamp\\Week_09\\Group_Capstone\\ATeamFitness\\ATeamFitness\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\monye\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SMORI\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,6 +61,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[3.1.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
             }
           },
           "imports": [
