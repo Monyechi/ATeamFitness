@@ -33,6 +33,7 @@ namespace ATeamFitness.Data
             }
             );
         }
+
         public DbSet<Customer> Customers { get; set; }
         public DbSet<PersonalTrainer> PersonalTrainers { get; set; }
     }

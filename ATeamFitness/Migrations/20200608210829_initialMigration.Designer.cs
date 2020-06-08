@@ -10,8 +10,13 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ATeamFitness.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
+<<<<<<< HEAD:ATeamFitness/Migrations/20200608210829_initialMigration.Designer.cs
     [Migration("20200608210829_initialMigration")]
     partial class initialMigration
+=======
+    [Migration("20200608192548_Initial")]
+    partial class Initial
+>>>>>>> 98113323c6023f6c2d6d85d6f817950ec4f14910:ATeamFitness/Migrations/20200608192548_Initial.Designer.cs
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -135,17 +140,29 @@ namespace ATeamFitness.Migrations
                     b.HasData(
                         new
                         {
+<<<<<<< HEAD:ATeamFitness/Migrations/20200608210829_initialMigration.Designer.cs
                             Id = "1f9e1c38-63e9-4b27-b350-61d8b7cfc1db",
                             ConcurrencyStamp = "a414e4d1-f722-4d90-94b8-d24f9f69498e",
+=======
+                            Id = "4f5fb51f-29ae-45ba-b70a-cbce7df39801",
+                            ConcurrencyStamp = "7d80fb32-64b1-4505-bdf9-1ffe2e88262f",
+>>>>>>> 98113323c6023f6c2d6d85d6f817950ec4f14910:ATeamFitness/Migrations/20200608192548_Initial.Designer.cs
                             Name = "Customer",
                             NormalizedName = "CUSTOMER"
                         },
                         new
                         {
+<<<<<<< HEAD:ATeamFitness/Migrations/20200608210829_initialMigration.Designer.cs
                             Id = "57c281c8-5be5-4423-bff1-2ebdd1dd94d9",
                             ConcurrencyStamp = "9ad9e3ec-64cf-401d-9ba3-9ebb756074bc",
                             Name = "Trainer",
                             NormalizedName = "TRAINER"
+=======
+                            Id = "646f9a58-7941-4988-a541-91542cc3c72f",
+                            ConcurrencyStamp = "4e4fe314-d2de-43a8-8dd1-5bb1a9b4c786",
+                            Name = "PersonTrainer",
+                            NormalizedName = "PERSONAL TRAINER"
+>>>>>>> 98113323c6023f6c2d6d85d6f817950ec4f14910:ATeamFitness/Migrations/20200608192548_Initial.Designer.cs
                         });
                 });
 
