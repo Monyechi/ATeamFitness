@@ -415,3 +415,9 @@ C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamF
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.dll
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.pdb
 C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.genruntimeconfig.cache
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
