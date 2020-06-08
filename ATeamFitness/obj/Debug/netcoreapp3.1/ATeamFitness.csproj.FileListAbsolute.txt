@@ -1,0 +1,8 @@
+C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.csprojAssemblyReference.cache
+C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.AssemblyInfoInputs.cache
+C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.AssemblyInfo.cs
+C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.csproj.CoreCompileInputs.cache
+C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.RazorAssemblyInfo.cache
+C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.RazorAssemblyInfo.cs
