@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace ATeamFitness.Data.Migrations
+namespace ATeamFitness.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -133,25 +133,15 @@ namespace ATeamFitness.Data.Migrations
                     b.HasData(
                         new
                         {
-<<<<<<< HEAD
-                            Id = "0126bdf7-dcba-4930-9127-22e4ca76142b",
-                            ConcurrencyStamp = "35161b09-c70e-488a-b7ca-238338bba681",
-=======
-                            Id = "b39f8487-64c8-435a-9e4e-5822791f9c19",
-                            ConcurrencyStamp = "ebf08129-73ba-411a-88dc-57c482c1e5b0",
->>>>>>> 994532af78aa1ced2cea9e00aae30f3a0e518982
+                            Id = "4f5fb51f-29ae-45ba-b70a-cbce7df39801",
+                            ConcurrencyStamp = "7d80fb32-64b1-4505-bdf9-1ffe2e88262f",
                             Name = "Customer",
                             NormalizedName = "CUSTOMER"
                         },
                         new
                         {
-<<<<<<< HEAD
-                            Id = "58681d03-a8f5-4ffa-89d8-90e521763d12",
-                            ConcurrencyStamp = "a7b980f2-5b5d-4fd5-848a-39da627c02c7",
-=======
-                            Id = "4b1a57cc-ae51-4028-a83b-b5c02a0a1bbc",
-                            ConcurrencyStamp = "2ee5c753-06e5-4a71-834a-e33b7dc0ff6b",
->>>>>>> 994532af78aa1ced2cea9e00aae30f3a0e518982
+                            Id = "646f9a58-7941-4988-a541-91542cc3c72f",
+                            ConcurrencyStamp = "4e4fe314-d2de-43a8-8dd1-5bb1a9b4c786",
                             Name = "PersonTrainer",
                             NormalizedName = "PERSONAL TRAINER"
                         });

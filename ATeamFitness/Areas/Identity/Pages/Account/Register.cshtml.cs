@@ -30,21 +30,17 @@ namespace ATeamFitness.Areas.Identity.Pages.Account
             UserManager<IdentityUser> userManager,
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
-<<<<<<< HEAD
-            IEmailSender emailSender)
-=======
+
             IEmailSender emailSender,
             RoleManager<IdentityRole> roleManager)
->>>>>>> 994532af78aa1ced2cea9e00aae30f3a0e518982
+
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
-<<<<<<< HEAD
-=======
             _roleManager = roleManager;
->>>>>>> 994532af78aa1ced2cea9e00aae30f3a0e518982
+
         }
 
         [BindProperty]
