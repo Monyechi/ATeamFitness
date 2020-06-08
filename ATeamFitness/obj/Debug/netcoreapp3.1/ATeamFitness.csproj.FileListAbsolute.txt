@@ -1,10 +1,3 @@
-C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.AssemblyInfoInputs.cache
-C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.AssemblyInfo.cs
-C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.csproj.CoreCompileInputs.cache
-C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.RazorAssemblyInfo.cache
-C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.RazorAssemblyInfo.cs
 C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -412,6 +405,14 @@ C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group
 C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.csprojAssemblyReference.cache
+C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.AssemblyInfoInputs.cache
+C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.AssemblyInfo.cs
+C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.csproj.CoreCompileInputs.cache
+C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.RazorAssemblyInfo.cache
+C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.RazorAssemblyInfo.cs
 C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.TagHelpers.input.cache
 C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.TagHelpers.output.cache
 C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.RazorCoreGenerate.cache
@@ -449,4 +450,3 @@ C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group
 C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.dll
 C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.pdb
 C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.genruntimeconfig.cache
-C:\Users\SMORI\Dropbox\My PC (LAPTOP-M0D3T0R9)\Desktop\devCodeCamp\Week_09\Group_Capstone\ATeamFitness\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.csprojAssemblyReference.cache
