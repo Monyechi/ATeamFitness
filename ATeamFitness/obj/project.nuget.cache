@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2k41sGhx9z4kSGoHIfGULT8S6hiXlB2TXulOf1op46rvQ1dp6HcaIklVBVxXBDFnWA9XxPmidRd3iBWqLQW0Xw==",
+  "dgSpecHash": "GLVLmkdMzBxPzSnPaJEt5dZ8jiQwvHHlroaSk8qTDD1VCrIP6wi25XNgl2LrfdrmuDqneegiWY1nrjXGaVcWSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\monye\\source\\repos\\ATeamFitness\\ATeamFitness\\ATeamFitness.csproj",
+  "projectFilePath": "C:\\Users\\monye\\OneDrive\\Desktop\\devCodeCamp\\Week 10\\Projects\\ATeamFitness\\ATeamFitness\\ATeamFitness.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\monye\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.4\\microsoft.aspnetcore.cryptography.internal.3.1.4.nupkg.sha512",
     "C:\\Users\\monye\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.4\\microsoft.aspnetcore.cryptography.keyderivation.3.1.4.nupkg.sha512",

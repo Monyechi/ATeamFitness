@@ -5865,11 +5865,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\monye\\source\\repos\\ATeamFitness\\ATeamFitness\\ATeamFitness.csproj",
+      "projectUniqueName": "C:\\Users\\monye\\OneDrive\\Desktop\\devCodeCamp\\Week 10\\Projects\\ATeamFitness\\ATeamFitness\\ATeamFitness.csproj",
       "projectName": "ATeamFitness",
-      "projectPath": "C:\\Users\\monye\\source\\repos\\ATeamFitness\\ATeamFitness\\ATeamFitness.csproj",
+      "projectPath": "C:\\Users\\monye\\OneDrive\\Desktop\\devCodeCamp\\Week 10\\Projects\\ATeamFitness\\ATeamFitness\\ATeamFitness.csproj",
       "packagesPath": "C:\\Users\\monye\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\monye\\source\\repos\\ATeamFitness\\ATeamFitness\\obj\\",
+      "outputPath": "C:\\Users\\monye\\OneDrive\\Desktop\\devCodeCamp\\Week 10\\Projects\\ATeamFitness\\ATeamFitness\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\monye\\AppData\\Roaming\\NuGet\\NuGet.Config",
