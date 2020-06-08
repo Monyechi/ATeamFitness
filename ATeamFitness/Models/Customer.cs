@@ -11,12 +11,13 @@ namespace ATeamFitness.Models
     public class Customer
     {
         [Key]
-        public int CustomerId { get; set; }
-        public string Name { get; set; }
-        public int StreetAddress { get; set; }
-        public string City { get; set; }
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string AddressLine1 { get; set; }
+        public string AddressLine2 { get; set; }
         public string State { get; set; }
-        public string ZipCode { get; set; }
+        public int ZipCode { get; set; }
         public string FitnessGoal { get; set; }
         public string FitnessPlan { get; set; }
         public string DietPlan { get; set; }
