@@ -896,6 +896,5 @@ C:\Users\Admin\Documents\devCodeCamp\Projects\ATeamFitness-master\ATeamFitness-m
 C:\Users\Admin\Documents\devCodeCamp\Projects\ATeamFitness-master\ATeamFitness-master\ATeamFitness\obj\Debug\netcoreapp3.1\ATeamFitness.genruntimeconfig.cache
 C:\Users\Admin\Documents\devCodeCamp\Projects\ATeamFitness-master\ATeamFitness-master\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Create.cshtml.g.cs
 C:\Users\Admin\Documents\devCodeCamp\Projects\ATeamFitness-master\ATeamFitness-master\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Delete.cshtml.g.cs
-C:\Users\Admin\Documents\devCodeCamp\Projects\ATeamFitness-master\ATeamFitness-master\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Details.cshtml.g.cs
 C:\Users\Admin\Documents\devCodeCamp\Projects\ATeamFitness-master\ATeamFitness-master\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Edit.cshtml.g.cs
 C:\Users\Admin\Documents\devCodeCamp\Projects\ATeamFitness-master\ATeamFitness-master\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Index.cshtml.g.cs
