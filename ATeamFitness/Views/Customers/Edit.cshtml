@@ -46,8 +46,11 @@
             </div>
             <div class="form-group">
                 <label asp-for="FitnessGoal" class="control-label"></label>
-                <input asp-for="FitnessGoal" class="form-control" />
-                <span asp-validation-for="FitnessGoal" class="text-danger"></span>
+                <select id="FitnessGoal" name="Goals">
+                    <option value="Bulking">Bulking</option>
+                    <option value="WeightLoss">WeightLoss</option>
+                    <option value="Tone">Tone</option>
+                </select>
             </div>
             <div hidden class="form-group">
                 <label asp-for="FitnessPlan" class="control-label"></label>
