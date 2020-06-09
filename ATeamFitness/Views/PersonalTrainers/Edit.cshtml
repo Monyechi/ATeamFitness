@@ -39,11 +39,18 @@
                 <input asp-for="WorkoutCalendar" class="form-control" />
                 <span asp-validation-for="WorkoutCalendar" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Bio" class="control-label"></label>
-                <input asp-for="Bio" class="form-control" />
-                <span asp-validation-for="Bio" class="text-danger"></span>
-            </div>
+            @*<div class="form-group">
+            <label asp-for="Bio" class="control-label"></label>
+            <input asp-for="Bio" class="form-control" />
+            <span asp-validation-for="Bio" class="text-danger"></span>
+        </div>*@
+
+        <div class="form-group">
+            <label asp-for="Bio" class="control-label"></label>
+            <textarea asp-for="Bio" rows="8" cols="45" placeholder="Your text here"></textarea>
+            <span asp-validation-for="Bio" class="text-danger"></span>
+        </div>
+
             <div class="form-group">
                 <label asp-for="TrainerLocation" class="control-label"></label>
                 <input asp-for="TrainerLocation" class="form-control" />
