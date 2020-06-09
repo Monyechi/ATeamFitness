@@ -21,15 +21,21 @@ namespace ATeamFitness.Migrations
 
             modelBuilder.Entity("ATeamFitness.Models.Customer", b =>
                 {
-                    b.Property<int>("CustomerId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("City")
+                    b.Property<string>("AddressLine1")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("AddressLine2")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DietPlan")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FitnessGoal")
@@ -41,7 +47,7 @@ namespace ATeamFitness.Migrations
                     b.Property<string>("IdentityUserId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("RewardPoint")
@@ -50,13 +56,10 @@ namespace ATeamFitness.Migrations
                     b.Property<string>("State")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("StreetAddress")
+                    b.Property<int>("ZipCode")
                         .HasColumnType("int");
 
-                    b.Property<string>("ZipCode")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("CustomerId");
+                    b.HasKey("Id");
 
                     b.HasIndex("IdentityUserId");
 
@@ -133,15 +136,15 @@ namespace ATeamFitness.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "b68ca455-a8f9-4fd7-a6e8-d58905764f1f",
-                            ConcurrencyStamp = "fd671bbe-d5b4-4201-b6db-fff9221d3203",
+                            Id = "ff11380b-95b4-4286-be0a-c7be733cad14",
+                            ConcurrencyStamp = "38997978-e51f-4fef-b152-8e65598b6b38",
                             Name = "Customer",
                             NormalizedName = "CUSTOMER"
                         },
                         new
                         {
-                            Id = "4eca5b62-089a-43ee-b033-8ea376a2ad58",
-                            ConcurrencyStamp = "38254d44-69c8-435c-a922-25203ac68a69",
+                            Id = "f7c6277c-985f-4d77-ab45-0d29073a1726",
+                            ConcurrencyStamp = "823bd172-6396-4f66-ae2b-deaff3535f77",
                             Name = "Trainer",
                             NormalizedName = "TRAINER"
                         });

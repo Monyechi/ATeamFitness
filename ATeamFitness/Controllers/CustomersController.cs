@@ -7,12 +7,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ATeamFitness.Data;
 using ATeamFitness.Models;
-using Microsoft.AspNetCore.Authorization;
-using System.Security.Claims;
 
 namespace ATeamFitness.Controllers
 {
-    [Authorize(Roles = "Customer")]
     public class CustomersController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -25,16 +22,8 @@ namespace ATeamFitness.Controllers
         // GET: Customers
         public async Task<IActionResult> Index()
         {
-            var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-            var customer = _context.Customers.Where(c => c.IdentityUserId == userId).SingleOrDefault();
-
-            if (customer == null)
-            {
-                return RedirectToAction("Create");
-            }
-
-            return View(customer);
+            var applicationDbContext = _context.Customers.Include(c => c.IdentityUser);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Customers/Details/5
@@ -47,7 +36,7 @@ namespace ATeamFitness.Controllers
 
             var customer = await _context.Customers
                 .Include(c => c.IdentityUser)
-                .FirstOrDefaultAsync(m => m.CustomerId == id);
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (customer == null)
             {
                 return NotFound();
@@ -68,12 +57,10 @@ namespace ATeamFitness.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CustomerId,Name,StreetAddress,City,State,ZipCode,FitnessGoal,FitnessPlan,DietPlan,RewardPoint,IdentityUserId")] Customer customer)
+        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,AddressLine1,AddressLine2,State,ZipCode,FitnessGoal,FitnessPlan,DietPlan,RewardPoint,IdentityUserId")] Customer customer)
         {
             if (ModelState.IsValid)
             {
-                var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
-                customer.IdentityUserId = userId;
                 _context.Add(customer);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -104,9 +91,9 @@ namespace ATeamFitness.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CustomerId,Name,StreetAddress,City,State,ZipCode,FitnessGoal,FitnessPlan,DietPlan,RewardPoint,IdentityUserId")] Customer customer)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,FirstName,LastName,AddressLine1,AddressLine2,State,ZipCode,FitnessGoal,FitnessPlan,DietPlan,RewardPoint,IdentityUserId")] Customer customer)
         {
-            if (id != customer.CustomerId)
+            if (id != customer.Id)
             {
                 return NotFound();
             }
@@ -120,7 +107,7 @@ namespace ATeamFitness.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CustomerExists(customer.CustomerId))
+                    if (!CustomerExists(customer.Id))
                     {
                         return NotFound();
                     }
@@ -145,7 +132,7 @@ namespace ATeamFitness.Controllers
 
             var customer = await _context.Customers
                 .Include(c => c.IdentityUser)
-                .FirstOrDefaultAsync(m => m.CustomerId == id);
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (customer == null)
             {
                 return NotFound();
@@ -167,7 +154,7 @@ namespace ATeamFitness.Controllers
 
         private bool CustomerExists(int id)
         {
-            return _context.Customers.Any(e => e.CustomerId == id);
+            return _context.Customers.Any(e => e.Id == id);
         }
     }
 }
