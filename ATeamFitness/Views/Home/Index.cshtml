@@ -23,9 +23,30 @@ body {
     right: 5px;
 
 }
+.signUP {
+    border: 1.3px solid;
+    width:112px;
+    border-color:red;
+    font-weight:700;
+    color:red;
+    position:relative;
+    bottom:10px;
+    left:150px;    
+}
 </style>
+<script>
+    function blinker() {
+        $('.blinking').fadeOut(500);
+        $('.blinking').fadeIn(500);
+    }
+    setInterval(blinker, 1000);
+</script>
+
 <body></body>
 <div class="bodyText">
     <p class="TextTop">JOIN US NOW</p>
-    <p class="TextBottom">FITNESS &amp; SPORT</p>
+    <p class="TextBottom">FITNESS &amp; SPORT</p>   
+    <div class="blinking"><p class="signUP">&nbsp;SIGN-UP NOW!&nbsp;</p></div>
 </div>
+
+

@@ -898,3 +898,12 @@ C:\Users\Admin\Documents\devCodeCamp\Projects\ATeamFitness-master\ATeamFitness-m
 C:\Users\Admin\Documents\devCodeCamp\Projects\ATeamFitness-master\ATeamFitness-master\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Delete.cshtml.g.cs
 C:\Users\Admin\Documents\devCodeCamp\Projects\ATeamFitness-master\ATeamFitness-master\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Edit.cshtml.g.cs
 C:\Users\Admin\Documents\devCodeCamp\Projects\ATeamFitness-master\ATeamFitness-master\ATeamFitness\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Index.cshtml.g.cs
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\bin\Debug\netcoreapp3.1\refs\Microsoft.Win32.Registry.dll
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\bin\Debug\netcoreapp3.1\refs\System.IO.Pipelines.dll
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\bin\Debug\netcoreapp3.1\refs\System.Security.AccessControl.dll
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Cng.dll
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\bin\Debug\netcoreapp3.1\refs\System.Security.Cryptography.Xml.dll
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\bin\Debug\netcoreapp3.1\refs\System.Security.Permissions.dll
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\bin\Debug\netcoreapp3.1\refs\System.Security.Principal.Windows.dll
+C:\Users\monye\OneDrive\Desktop\devCodeCamp\Week 10\Projects\ATeamFitness\ATeamFitness\bin\Debug\netcoreapp3.1\refs\System.Windows.Extensions.dll
